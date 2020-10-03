@@ -91,7 +91,7 @@
 .bg-container {
   background-color: #f5f5f5; }
   .bg-container .collection-wrap {
-    padding: 100px 15px 50px;
+    padding: 60px 15px 50px;
     max-width: 1116px; }
     .bg-container .collection-wrap .row .stikySidebar {
       align-self: flex-start;
@@ -297,30 +297,32 @@
         font-size: 16px;
         padding: 6px 15px; } }
 @media (max-width: 480px) {
-  .bg-container .collection-wrap .row .stikySidebar .sidebar_menu li {
-    padding: 5px 0 10px 12px !important; }
-    .bg-container .collection-wrap .row .stikySidebar .sidebar_menu li .menu_scroll_link {
-      font-size: 16px !important; }
-  .bg-container .collection-wrap .row .border_right_before::before {
-    opacity: 0; }
-  .bg-container .collection-wrap .row .border_right_before .block_menu_item_title .line_after_heading {
-    font-size: 26px; }
-  .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item {
-    -ms-flex: 0 0 calc(50% - 30px);
-    -webkit-flex: 0 0 calc(50% - 30px);
-    flex: 0 0 calc(50% - 30px); }
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new .svg-new,
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new .svg-best-seller,
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller .svg-new,
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller .svg-best-seller {
-      height: 18px;
-      width: 18px; }
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new span,
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller span {
-      line-height: 16px;
-      font-size: 11px; }
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_info .price_product_item {
-      font-size: 18px; }
-    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_info .menu_item_action.animate_btn {
-      font-size: 10px;
-      padding: 5px 8px; } }
+  .bg-container .collection-wrap {
+    padding: 20px 15px 20px; }
+    .bg-container .collection-wrap .row .stikySidebar .sidebar_menu li {
+      padding: 5px 0 10px 12px !important; }
+      .bg-container .collection-wrap .row .stikySidebar .sidebar_menu li .menu_scroll_link {
+        font-size: 16px !important; }
+    .bg-container .collection-wrap .row .border_right_before::before {
+      opacity: 0; }
+    .bg-container .collection-wrap .row .border_right_before .block_menu_item_title .line_after_heading {
+      font-size: 26px; }
+    .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item {
+      -ms-flex: 0 0 calc(50% - 30px);
+      -webkit-flex: 0 0 calc(50% - 30px);
+      flex: 0 0 calc(50% - 30px); }
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new .svg-new,
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new .svg-best-seller,
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller .svg-new,
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller .svg-best-seller {
+        height: 18px;
+        width: 18px; }
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .new span,
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_image .best_seller span {
+        line-height: 16px;
+        font-size: 11px; }
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_info .price_product_item {
+        font-size: 18px; }
+      .bg-container .collection-wrap .row .border_right_before .menu_lists .menu_item .menu_item_info .menu_item_action.animate_btn {
+        font-size: 10px;
+        padding: 5px 8px; } }
