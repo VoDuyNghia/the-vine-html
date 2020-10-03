@@ -36,6 +36,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
 </head>
 
@@ -166,13 +167,1285 @@
             </div>
             <div class="background-header"></div>
         </header>
-        <div class="container-fluid full-container">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
+        <div class="container-fluid full-container bg-container">
+            <div class="container collection-wrap">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 stikySidebar">
+                        <aside class="sidebar_menu">
+                            <ul class="pl-0">
+                                <li><a class="menu_scroll_link active" href="#noi-bat">NỔI BẬT</a></li>
+                                <li><a class="menu_scroll_link" href="#ca-phe-viet-nam">CÀ PHÊ VIỆT NAM</a></li>
+                                <li><a class="menu_scroll_link" href="#ca-phe-may">CÀ PHÊ MÁY</a></li>
+                                <li><a class="menu_scroll_link" href="#cold-brew">COLD BREW</a></li>
+                                <li><a class="menu_scroll_link" href="#tra-trai-cay">TRÀ TRÁI CÂY</a></li>
+                                <li><a class="menu_scroll_link" href="#tra-sua-macchiato">TRÀ SỮA MACCHIATO</a></li>
+                                <li><a class="menu_scroll_link" href="#ca-phe-da-xay">CÀ PHÊ ĐÁ XAY</a></li>
+                                <li><a class="menu_scroll_link" href="#thuc-uong-trai-cay">THỨC UỐNG TRÁI CÂY</a></li>
+                                <li><a class="menu_scroll_link" href="#matcha-socola">MATCHA - SÔCÔLA</a></li>
+                                <li><a class="menu_scroll_link" href="#banh-snack">BÁNH &amp; SNACK</a></li>
+                                <li><a class="menu_scroll_link" href="#ca-phe-goi">CÀ PHÊ GÓI</a></li>
+                                <li><a class="menu_scroll_link" href="#merchandise">MERCHANDISE</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 border_right_before">
+                        <div class="block_menu_item" id="noi-bat">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">NỔI
+                                    BẬT</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-sua-trung-muoi" title="Cà Phê Sữa Trứng Muối"><img
+                                                src="//product.hstatic.net/1000075078/product/cf-sua-trung-muoi_1x1_60cc3fbc3c0147ca889fdf0312ba5c14_large.jpg"
+                                                alt="ca phe sua trung muoi"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-sua-trung-muoi"
+                                                title="Cà Phê Sữa Trứng Muối">Cà
+                                                Phê Sữa Trứng Muối</a></h3>
+                                        <div class="price_product_item">55,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-sua-khoai-mon" title="Trà Sữa Khoai Môn"><img
+                                                src="//product.hstatic.net/1000075078/product/ts-khoai-mon_1x1_e0d98e67a7ef424e9e220161aba227bc_large.jpg"
+                                                alt="tra sua khoai mon"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-sua-khoai-mon"
+                                                title="Trà Sữa Khoai Môn">Trà Sữa
+                                                Khoai Môn</a></h3>
+                                        <div class="price_product_item">42,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-lai-sen-trung-muoi" title="Trà Lài Sen Trứng Muối"><img
+                                                src="//product.hstatic.net/1000075078/product/tra-sen-trung-muoi_1x1_a7be5afca37f4002975152fc5c047e41_large.jpg"
+                                                alt="tra lai sen trung muoi"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-lai-sen-trung-muoi"
+                                                title="Trà Lài Sen Trứng Muối">Trà Lài Sen Trứng Muối</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-cam-vang" title="COLD BREW CAM VÀNG"><img
+                                                src="//product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"
+                                                alt="cold brew cam vang"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-cam-vang"
+                                                title="COLD BREW CAM VÀNG">COLD BREW
+                                                CAM VÀNG</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-sua-mac-ca-tran-chau-trang"
+                                            title="TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG"><img
+                                                src="//product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg"
+                                                alt="tra sua mac ca tran chau trang"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-sua-mac-ca-tran-chau-trang"
+                                                title="TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG">TRÀ SỮA MẮC CA TRÂN CHÂU
+                                                TRẮNG</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-den-macchiato" title="TRÀ ĐEN MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_den_macchiato_789c1d7590a24dce8dd0a412ae03a7fd_large.jpg"
+                                                alt="tra den macchiato"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-den-macchiato"
+                                                title="TRÀ ĐEN MACCHIATO">TRÀ ĐEN
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">42,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-dao-cam-sa" title="TRÀ ĐÀO CAM SẢ"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg"
+                                                alt="tra dao cam sa"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-dao-cam-sa"
+                                                title="TRÀ ĐÀO CAM SẢ">TRÀ ĐÀO CAM SẢ</a>
+                                        </h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="ca-phe-viet-nam">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">CÀ PHÊ
+                                    VIỆT NAM</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/bac-siu" title="BẠC SỈU"><img
+                                                src="//product.hstatic.net/1000075078/product/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.jpg"
+                                                alt="bac siu"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/bac-siu" title="BẠC SỈU">BẠC
+                                                SỈU</a></h3>
+                                        <div class="price_product_item">32,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-den" title="CÀ PHÊ ĐEN"><img
+                                                src="//product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.jpg"
+                                                alt="ca phe den"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-den" title="CÀ PHÊ ĐEN">CÀ
+                                                PHÊ ĐEN</a></h3>
+                                        <div class="price_product_item">32,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-sua" title="CÀ PHÊ SỮA"><img
+                                                src="//product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.jpg"
+                                                alt="ca phe sua"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-sua" title="CÀ PHÊ SỮA">CÀ
+                                                PHÊ SỮA</a></h3>
+                                        <div class="price_product_item">32,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="ca-phe-may">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">CÀ PHÊ
+                                    MÁY</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/americano-1" title="AMERICANO"><img
+                                                src="//product.hstatic.net/1000075078/product/americano_copy_92414ac8e0634fb48ea72b21bc496b43_large.jpg"
+                                                alt="americano"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/americano-1"
+                                                title="AMERICANO">AMERICANO</a></h3>
+                                        <div class="price_product_item">39,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cappuccino-1" title="CAPPUCCINO"><img
+                                                src="//product.hstatic.net/1000075078/product/cappuccino_af58b143de7e4faeb9a3ce59b313c946_large.jpg"
+                                                alt="cappuccino"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cappuccino-1"
+                                                title="CAPPUCCINO">CAPPUCCINO</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/caramel-macchiato" title="CARAMEL MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/caramel_macchiato_24ff98b746e84b7aba702c01a60b1a52_large.jpg"
+                                                alt="caramel macchiato"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/caramel-macchiato"
+                                                title="CARAMEL MACCHIATO">CARAMEL
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">55,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/espresso-1" title="ESPRESSO"><img
+                                                src="//product.hstatic.net/1000075078/product/espressonong_f60fc6f25baa404c8a8bfc40c396f27e_large.jpg"
+                                                alt="espresso"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/espresso-1"
+                                                title="ESPRESSO">ESPRESSO</a></h3>
+                                        <div class="price_product_item">35,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/latte" title="LATTE"><img
+                                                src="//product.hstatic.net/1000075078/product/latte_dd6427d058294df5aa4745e5a6035a93_large.jpg"
+                                                alt="latte"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/latte" title="LATTE">LATTE</a>
+                                        </h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/mocha" title="MOCHA"><img
+                                                src="//product.hstatic.net/1000075078/product/mocha_da_a2913936f9d84d07b63ac1ddf5dd2d0f_large.jpg"
+                                                alt="mocha"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/mocha" title="MOCHA">MOCHA</a>
+                                        </h3>
+                                        <div class="price_product_item">49,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="cold-brew">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">COLD
+                                    BREW</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-truyen-thong" title="COLD BREW TRUYỀN THỐNG"><img
+                                                src="//product.hstatic.net/1000075078/product/classic_cold_brew_67a26b702dbc4602b36c450893efdab0_large.jpg"
+                                                alt="cold brew truyen thong"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-truyen-thong"
+                                                title="COLD BREW TRUYỀN THỐNG">COLD BREW TRUYỀN THỐNG</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-cam-vang" title="COLD BREW CAM VÀNG"><img
+                                                src="//product.hstatic.net/1000075078/product/cold_brew_cam_vang_new_d4bdbc7bcb53442d9c92ccfd40a4f7af_large.jpg"
+                                                alt="cold brew cam vang"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-cam-vang"
+                                                title="COLD BREW CAM VÀNG">COLD BREW
+                                                CAM VÀNG</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-sua-tuoi-macchiato"
+                                            title="COLD BREW SỮA TƯƠI MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/coldbrew-macchiato_d7b208bbbca9454c8d00f4ae4881b5cb_large.jpg"
+                                                alt="cold brew sua tuoi macchiato"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-sua-tuoi-macchiato"
+                                                title="COLD BREW SỮA TƯƠI MACCHIATO">COLD BREW SỮA TƯƠI MACCHIATO</a>
+                                        </h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-phuc-bon-tu" title="COLD BREW PHÚC BỒN TỬ"><img
+                                                src="//product.hstatic.net/1000075078/product/cold_brew_pnt_copy_172c6bdd6923422c9a01111867ce8686_large.jpg"
+                                                alt="cold brew phuc bon tu"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-phuc-bon-tu"
+                                                title="COLD BREW PHÚC BỒN TỬ">COLD
+                                                BREW PHÚC BỒN TỬ</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/cold-brew-sua-tuoi" title="COLD BREW SỮA TƯƠI"><img
+                                                src="//product.hstatic.net/1000075078/product/cold_brew_sua_tuoi_ee783daa0b44466b858f990f42943d46_large.jpg"
+                                                alt="cold brew sua tuoi"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/cold-brew-sua-tuoi"
+                                                title="COLD BREW SỮA TƯƠI">COLD BREW
+                                                SỮA TƯƠI</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="tra-trai-cay">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">TRÀ TRÁI
+                                    CÂY</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-oolong-vai-nhu-y" title="TRÀ OOLONG VẢI"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_vai_046084306a484f41bd8c37efaab8f538_large.jpg"
+                                                alt="tra oolong vai"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-oolong-vai-nhu-y"
+                                                title="TRÀ OOLONG VẢI">TRÀ OOLONG
+                                                VẢI</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-oolong-sen-an-nhien" title="TRÀ OOLONG HẠT SEN"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_sen_bd7ab23f9be048429bb13682f6515ec3_large.jpg"
+                                                alt="tra oolong hat sen"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-oolong-sen-an-nhien"
+                                                title="TRÀ OOLONG HẠT SEN">TRÀ
+                                                OOLONG HẠT SEN</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-dao-cam-sa" title="TRÀ ĐÀO CAM SẢ"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg"
+                                                alt="tra dao cam sa"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-dao-cam-sa"
+                                                title="TRÀ ĐÀO CAM SẢ">TRÀ ĐÀO CAM SẢ</a>
+                                        </h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-buoi-mat-ong" title="TRÀ OOLONG BƯỞI MẬT ONG"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_buoi_5c4c5ce2d4e44042a069ec9011ef1a9f_large.jpg"
+                                                alt="tra oolong buoi mat ong"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-buoi-mat-ong"
+                                                title="TRÀ OOLONG BƯỞI MẬT ONG">TRÀ
+                                                OOLONG BƯỞI MẬT ONG</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-phuc-bon-tu" title="TRÀ OOLONG PHÚC BỒN TỬ"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_pbt_b1d7b2aac4474bad9e16906964170a17_large.jpg"
+                                                alt="tra oolong phuc bon tu"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-phuc-bon-tu"
+                                                title="TRÀ OOLONG PHÚC BỒN TỬ">TRÀ
+                                                OOLONG PHÚC BỒN TỬ</a></h3>
+                                        <div class="price_product_item">50,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="tra-sua-macchiato">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">TRÀ SỮA
+                                    MACCHIATO</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-lai-macchiato" title="TRÀ LÀI MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_lai_macchiato_593fa25b60c746a0bbaab931ce646d42_large.jpg"
+                                                alt="tra lai macchiato"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-lai-macchiato"
+                                                title="TRÀ LÀI MACCHIATO">TRÀ LÀI
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">42,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-den-macchiato" title="TRÀ ĐEN MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_den_macchiato_789c1d7590a24dce8dd0a412ae03a7fd_large.jpg"
+                                                alt="tra den macchiato"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-den-macchiato"
+                                                title="TRÀ ĐEN MACCHIATO">TRÀ ĐEN
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">42,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-sua-mac-ca-tran-chau-trang"
+                                            title="TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG"><img
+                                                src="//product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg"
+                                                alt="tra sua mac ca tran chau trang"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-sua-mac-ca-tran-chau-trang"
+                                                title="TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG">TRÀ SỮA MẮC CA TRÂN CHÂU
+                                                TRẮNG</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/matcha-macchiato" title="TRÀ MATCHA MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/_2matcha_macchiato_copy_a4142e7ff6fe41058bdd415ea67ecb2d_large.jpg"
+                                                alt="tra matcha macchiato"></a>
+                                        <div class="best_seller"><img class="svg-best-seller"
+                                                src="//file.hstatic.net/1000075078/file/orion_diploma.svg"
+                                                alt=""><span>Bán chạy nhất</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/matcha-macchiato"
+                                                title="TRÀ MATCHA MACCHIATO">TRÀ MATCHA
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">45,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-xoai-macchiato" title="TRÀ XOÀI MACCHIATO"><img
+                                                src="//product.hstatic.net/1000075078/product/tra_xoai_macchiato_05083a71dbf047daa914c5a107c963af_large.jpg"
+                                                alt="tra xoai macchiato"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-xoai-macchiato"
+                                                title="TRÀ XOÀI MACCHIATO">TRÀ XOÀI
+                                                MACCHIATO</a></h3>
+                                        <div class="price_product_item">55,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="ca-phe-da-xay">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">CÀ PHÊ ĐÁ
+                                    XAY</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-ca-phe-da-xay" title="TRÀ CÀ PHÊ ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/cam-pbt-da-xay_4a7971fac1f34e439e6b3255c704ed26_large.jpg"
+                                                alt="tra ca phe da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-ca-phe-da-xay"
+                                                title="TRÀ CÀ PHÊ ĐÁ XAY">TRÀ CÀ PHÊ
+                                                ĐÁ XAY</a></h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-da-xay" title="CÀ PHÊ ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/cf_da_xay_c062933b9a044c5f9b6370a34e2d2216_large.jpg"
+                                                alt="ca phe da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-da-xay"
+                                                title="CÀ PHÊ ĐÁ XAY">CÀ PHÊ ĐÁ XAY</a>
+                                        </h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="thuc-uong-trai-cay">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">THỨC UỐNG
+                                    TRÁI CÂY</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/chanh-sa-da-xay" title="CHANH SẢ ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/chanh_sa_da_xay_45d1c4971e4f4251a2858aa3970fed80_large.jpg"
+                                                alt="chanh sa da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/chanh-sa-da-xay"
+                                                title="CHANH SẢ ĐÁ XAY">CHANH SẢ ĐÁ
+                                                XAY</a></h3>
+                                        <div class="price_product_item">49,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/phuc-bon-tu-cam-da-xay" title="PHÚC BỒN TỬ CAM ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/cam_pbt_da_xay_27dc80ef2efb4828885c2be429aa42fa_large.jpg"
+                                                alt="phuc bon tu cam da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/phuc-bon-tu-cam-da-xay"
+                                                title="PHÚC BỒN TỬ CAM ĐÁ XAY">PHÚC BỒN TỬ CAM ĐÁ XAY</a></h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/sinh-to-cam-xoai" title="SINH TỐ CAM XOÀI"><img
+                                                src="//product.hstatic.net/1000075078/product/sinh_to_cam_xoai_c3cfa1beec0d4e49b0b229104cbfe412_large.jpg"
+                                                alt="sinh to cam xoai"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/sinh-to-cam-xoai"
+                                                title="SINH TỐ CAM XOÀI">SINH TỐ CAM
+                                                XOÀI</a></h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/sinh-to-viet-quat" title="SINH TỐ VIỆT QUẤT"><img
+                                                src="//product.hstatic.net/1000075078/product/sinh-to-viet-quoc_bd95abd5bf84451e8ee0c8cef031432c_large.jpg"
+                                                alt="sinh to viet quat"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/sinh-to-viet-quat"
+                                                title="SINH TỐ VIỆT QUẤT">SINH TỐ VIỆT
+                                                QUẤT</a></h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="matcha-socola">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">MATCHA -
+                                    SÔCÔLA</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/so-co-la-da" title="SÔ-CÔ-LA ĐÁ"><img
+                                                src="//product.hstatic.net/1000075078/product/socola_83e0d06b24294e53a67934e06f4fe7f4_large.jpg"
+                                                alt="so co la da"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/so-co-la-da"
+                                                title="SÔ-CÔ-LA ĐÁ">SÔ-CÔ-LA ĐÁ</a></h3>
+                                        <div class="price_product_item">55,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/so-co-la-da-xay" title="SÔ-CÔ-LA ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/chocolate_ice_blended_45497439e5ea4aa980b8c63078608a2d_large.jpg"
+                                                alt="so co la da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/so-co-la-da-xay"
+                                                title="SÔ-CÔ-LA ĐÁ XAY">SÔ-CÔ-LA ĐÁ
+                                                XAY</a></h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/matcha-da-xay" title="MATCHA ĐÁ XAY"><img
+                                                src="//product.hstatic.net/1000075078/product/matchadaxay_5d6b255ccee94330b847b6ed3fece40c_large.jpg"
+                                                alt="matcha da xay"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/matcha-da-xay"
+                                                title="MATCHA ĐÁ XAY">MATCHA ĐÁ XAY</a>
+                                        </h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tra-matcha-latte" title="MATCHA LATTE"><img
+                                                src="//product.hstatic.net/1000075078/product/matcha_latte_da_copy_c3100f721af84845b45c5d4422383d49_large.jpg"
+                                                alt="matcha latte"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tra-matcha-latte"
+                                                title="MATCHA LATTE">MATCHA LATTE</a>
+                                        </h3>
+                                        <div class="price_product_item">59,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="banh-snack">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">BÁNH
+                                    &amp; SNACK</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-bong-lan-trung-muoi"
+                                            title="BÁNH BÔNG LAN TRỨNG MUỐI"><img
+                                                src="//product.hstatic.net/1000075078/product/trungmui1_9abf7c43946b44e9948dbac1eff95e40_large.jpg"
+                                                alt="banh bong lan trung muoi"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-bong-lan-trung-muoi"
+                                                title="BÁNH BÔNG LAN TRỨNG MUỐI">BÁNH BÔNG LAN TRỨNG MUỐI</a></h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-chocolate" title="BÁNH CHOCOLATE"><img
+                                                src="//product.hstatic.net/1000075078/product/choco_1x1_4faf8c80e6604cad88ce30528e2bd409_large.jpg"
+                                                alt="banh chocolate"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-chocolate"
+                                                title="BÁNH CHOCOLATE">BÁNH CHOCOLATE</a>
+                                        </h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-gau-chocolate" title="BÁNH GẤU CHOCOLATE"><img
+                                                src="//product.hstatic.net/1000075078/product/gau_1x1_8b308db3a67a47688ff0d69a8c5615bf_large.jpg"
+                                                alt="banh gau chocolate"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-gau-chocolate"
+                                                title="BÁNH GẤU CHOCOLATE">BÁNH GẤU
+                                                CHOCOLATE</a></h3>
+                                        <div class="price_product_item">39,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-matcha" title="BÁNH MATCHA"><img
+                                                src="//product.hstatic.net/1000075078/product/matcha_178bdeeb1f9b47ea9f782048eb145f49_large.jpg"
+                                                alt="banh matcha"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-matcha"
+                                                title="BÁNH MATCHA">BÁNH MATCHA</a></h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-mi-cha-bong-pho-mai"
+                                            title="BÁNH MÌ CHÀ BÔNG PHÔ MAI"><img
+                                                src="//product.hstatic.net/1000075078/product/phomaichabong_1x1_e86c140c8a084458afcace64a93d2fd1_large.jpg"
+                                                alt="banh mi cha bong pho mai"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-mi-cha-bong-pho-mai"
+                                                title="BÁNH MÌ CHÀ BÔNG PHÔ MAI">BÁNH MÌ CHÀ BÔNG PHÔ MAI</a></h3>
+                                        <div class="price_product_item">32,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-passion-cheese" title="BÁNH PASSION CHEESE"><img
+                                                src="//product.hstatic.net/1000075078/product/chanhday_1x1_da85397059a149e1b886237434f7ce48_large.jpg"
+                                                alt="banh passion cheese"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-passion-cheese"
+                                                title="BÁNH PASSION CHEESE">BÁNH
+                                                PASSION CHEESE</a></h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/banh-tiramisu" title="BÁNH TIRAMISU"><img
+                                                src="//product.hstatic.net/1000075078/product/tira_1x1_eb865751a24e4520be32a56129dd7a2d_large.jpg"
+                                                alt="banh tiramisu"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/banh-tiramisu"
+                                                title="BÁNH TIRAMISU">BÁNH TIRAMISU</a>
+                                        </h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="ca-phe-goi">
+                            <h3 class="block_menu_item_title"><span class="line_after_heading section_heading">CÀ PHÊ
+                                    GÓI</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-arabica" title="CÀ PHÊ ARABICA"><img
+                                                src="//product.hstatic.net/1000075078/product/coffee_cf__arabica_app_moi_f7501f79743e43c9914821199f37e050_large.jpg"
+                                                alt="ca phe arabica"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-arabica"
+                                                title="CÀ PHÊ ARABICA">CÀ PHÊ ARABICA</a>
+                                        </h3>
+                                        <div class="price_product_item">100,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-phin" title="CÀ PHÊ PHIN"><img
+                                                src="//product.hstatic.net/1000075078/product/ca_phe_phin_a7415bf4c5fe4a5ea2b2da919455e154_large.png"
+                                                alt="ca phe phin"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-phin"
+                                                title="CÀ PHÊ PHIN">CÀ PHÊ PHIN</a></h3>
+                                        <div class="price_product_item">Sắp mở bán</div>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ca-phe-phin-dak-nong-x-cau-dat"
+                                            title="CÀ PHÊ PHIN ĐẮK NÔNG x CẦU ĐẤT"><img
+                                                src="//product.hstatic.net/1000075078/product/104124090_2689795651294444_7455469219590023601_o_ad388ad6799b4352b258c72c60781f42_large.jpg"
+                                                alt="ca phe phin dak nong x cau dat"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ca-phe-phin-dak-nong-x-cau-dat"
+                                                title="CÀ PHÊ PHIN ĐẮK NÔNG x CẦU ĐẤT">CÀ PHÊ PHIN ĐẮK NÔNG x CẦU
+                                                ĐẤT</a></h3>
+                                        <div class="price_product_item">Sắp mở bán</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_menu_item" id="merchandise">
+                            <h3 class="block_menu_item_title"><span
+                                    class="line_after_heading section_heading">MERCHANDISE</span></h3>
+                            <div class="flex_wrap display_flex menu_lists">
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/binh-giu-nhiet-inox-con-thuyen"
+                                            title="Bình Giữ Nhiệt Inox Con Thuyền"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webtumbler_con_thuyen_84d887ab98864640b520a31b986a252a_large.jpg"
+                                                alt="binh giu nhiet inox con thuyen"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/binh-giu-nhiet-inox-con-thuyen"
+                                                title="Bình Giữ Nhiệt Inox Con Thuyền">Bình Giữ Nhiệt Inox Con
+                                                Thuyền</a></h3>
+                                        <div class="price_product_item">300,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/binh-giu-nhiet-inox-qua-dua"
+                                            title="Bình Giữ Nhiệt Inox Quả Dứa"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webtumbler_qua_dua_f5aee5d72b8249db9ef043dc6a6d651b_large.jpg"
+                                                alt="binh giu nhiet inox qua dua"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/binh-giu-nhiet-inox-qua-dua"
+                                                title="Bình Giữ Nhiệt Inox Quả Dứa">Bình Giữ Nhiệt Inox Quả Dứa</a></h3>
+                                        <div class="price_product_item">300,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/binh-giu-nhiet-inox-the-coffee-house-den"
+                                            title="Bình Giữ Nhiệt Inox The Coffee House (Đen)"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webbinh_tumbler_den_b57fb8bfe9c446a092b076cb3f42d735_large.jpg"
+                                                alt="binh giu nhiet inox the coffee house den"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a
+                                                href="/products/binh-giu-nhiet-inox-the-coffee-house-den"
+                                                title="Bình Giữ Nhiệt Inox The Coffee House (Đen)">Bình Giữ Nhiệt Inox
+                                                The Coffee House (Đen)</a></h3>
+                                        <div class="price_product_item">300,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/bo-ong-hut-inox" title="Bộ Ống Hút Inox"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webong_hut_inox_den_8e5748631dcd4cc9a7371c2c488f56b4_large.jpg"
+                                                alt="bo ong hut inox"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/bo-ong-hut-inox"
+                                                title="Bộ Ống Hút Inox">Bộ Ống Hút
+                                                Inox</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/coc-su-the-coffee-house-da-nang"
+                                            title="Cốc Sứ The Coffee House Đà Nẵng"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_dn_cec3d9d00d2045f181660c7b0625614d_large.jpg"
+                                                alt="coc su the coffee house da nang"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/coc-su-the-coffee-house-da-nang"
+                                                title="Cốc Sứ The Coffee House Đà Nẵng">Cốc Sứ The Coffee House Đà
+                                                Nẵng</a></h3>
+                                        <div class="price_product_item">120,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/coc-su-the-coffee-house-gon-song"
+                                            title="Cốc Sứ The Coffee House Gợn Sóng"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_gon_song_d9efc6093e564e2faa302ed59ef5cdd8_large.jpg"
+                                                alt="coc su the coffee house gon song"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/coc-su-the-coffee-house-gon-song"
+                                                title="Cốc Sứ The Coffee House Gợn Sóng">Cốc Sứ The Coffee House Gợn
+                                                Sóng</a></h3>
+                                        <div class="price_product_item">100,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/coc-su-the-coffee-house-ha-noi"
+                                            title="Cốc Sứ The Coffee House Hà Nội"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_hn_8324ce692c154ac68c6fc388394b7e13_large.jpg"
+                                                alt="coc su the coffee house ha noi"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/coc-su-the-coffee-house-ha-noi"
+                                                title="Cốc Sứ The Coffee House Hà Nội">Cốc Sứ The Coffee House Hà
+                                                Nội</a></h3>
+                                        <div class="price_product_item">120,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/coc-su-the-coffee-house-soc-ngang"
+                                            title="Cốc Sứ The Coffee House Sọc Ngang"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_soc_ngang_6ea7e30e86fd49cdac08e725ee35b6dd_large.jpg"
+                                                alt="coc su the coffee house soc ngang"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/coc-su-the-coffee-house-soc-ngang"
+                                                title="Cốc Sứ The Coffee House Sọc Ngang">Cốc Sứ The Coffee House Sọc
+                                                Ngang</a></h3>
+                                        <div class="price_product_item">100,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/coc-su-the-coffee-house-tphcm"
+                                            title="Cốc Sứ The Coffee House TPHCM"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_sg_d8e02917f4b8495285ce949cf0007d68_large.jpg"
+                                                alt="coc su the coffee house tphcm"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/coc-su-the-coffee-house-tphcm"
+                                                title="Cốc Sứ The Coffee House TPHCM">Cốc Sứ The Coffee House TPHCM</a>
+                                        </h3>
+                                        <div class="price_product_item">120,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-farm-to-cup-cao" title="Ly Farm to Cup (Cao)"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_ff2c_6d661660dd1e433f8008197f35e65f06_large.jpg"
+                                                alt="ly farm to cup cao"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-farm-to-cup-cao"
+                                                title="Ly Farm to Cup (Cao)">Ly Farm
+                                                to Cup (Cao)</a></h3>
+                                        <div class="price_product_item">150,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-farm-to-cup-thap" title="Ly Farm to Cup (Thấp)"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_su_ff2c_lun_4726b38c703f44a0bf278772dc76bfc1_large.jpg"
+                                                alt="ly farm to cup thap"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-farm-to-cup-thap"
+                                                title="Ly Farm to Cup (Thấp)">Ly
+                                                Farm to Cup (Thấp)</a></h3>
+                                        <div class="price_product_item">120,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-giu-nhiet-inox-the-cofffee-house-xam"
+                                            title="Ly Giữ Nhiệt Inox The Cofffee House (Xám)"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webbinh_giu_nhiet_inox_faeb557d906b4a3d9cc0069714b6103b_large.jpg"
+                                                alt="ly giu nhiet inox the cofffee house xam"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a
+                                                href="/products/ly-giu-nhiet-inox-the-cofffee-house-xam"
+                                                title="Ly Giữ Nhiệt Inox The Cofffee House (Xám)">Ly Giữ Nhiệt Inox The
+                                                Cofffee House (Xám)</a></h3>
+                                        <div class="price_product_item">250,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-inox-ong-hut-den-nham"
+                                            title="Ly Inox Ống Hút Đen Nhám"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webbinh_inox_ong_hut_den_749eb0800ead4d5fb126dddd0627bb84_large.jpg"
+                                                alt="ly inox ong hut den nham"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-inox-ong-hut-den-nham"
+                                                title="Ly Inox Ống Hút Đen Nhám">Ly Inox Ống Hút Đen Nhám</a></h3>
+                                        <div class="price_product_item">280,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-inox-ong-hut-hong-xanh"
+                                            title="Ly Inox Ống Hút Hồng Xanh"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webbinh_inox_ong_hut_nhieu_mau_e608b40299dc4754b417216b035f6128_large.jpg"
+                                                alt="ly inox ong hut hong xanh"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-inox-ong-hut-hong-xanh"
+                                                title="Ly Inox Ống Hút Hồng Xanh">Ly Inox Ống Hút Hồng Xanh</a></h3>
+                                        <div class="price_product_item">280,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-inox-ong-hut-xanh-bien"
+                                            title="Ly Inox Ống Hút Xanh Biển"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webbinh_inox_ong_hut_xanh_38d284044a4e49719a5b374f2adcba9e_large.jpg"
+                                                alt="ly inox ong hut xanh bien"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-inox-ong-hut-xanh-bien"
+                                                title="Ly Inox Ống Hút Xanh Biển">Ly Inox Ống Hút Xanh Biển</a></h3>
+                                        <div class="price_product_item">280,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-nhua-2-lop-con-thuyen"
+                                            title="Ly Nhựa 2 Lớp Con Thuyền"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_nhua_con_thuyen_9671ce6feacb4bf58f885573c83f0886_large.jpg"
+                                                alt="ly nhua 2 lop con thuyen"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-nhua-2-lop-con-thuyen"
+                                                title="Ly Nhựa 2 Lớp Con Thuyền">Ly Nhựa 2 Lớp Con Thuyền</a></h3>
+                                        <div class="price_product_item">180,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/ly-nhua-2-lop-qua-dua" title="Ly Nhựa 2 Lớp Quả Dứa"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webly_nhua_qua_dua_1ab5bca338f746b2822133386a4bb31c_large.jpg"
+                                                alt="ly nhua 2 lop qua dua"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/ly-nhua-2-lop-qua-dua"
+                                                title="Ly Nhựa 2 Lớp Quả Dứa">Ly
+                                                Nhựa 2 Lớp Quả Dứa</a></h3>
+                                        <div class="price_product_item">180,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/so-ruoc-den-don-trang" title="Sổ Rước đèn đón trăng"><img
+                                                src="//product.hstatic.net/1000075078/product/appso_tay_2_3399bf63d39549b4ac996b2713dde85c_large.jpg"
+                                                alt="so ruoc den don trang"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/so-ruoc-den-don-trang"
+                                                title="Sổ Rước đèn đón trăng">Sổ
+                                                Rước đèn đón trăng</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/so-the-tale-of-cuoi" title="Sổ The Tale of Cuội"><img
+                                                src="//product.hstatic.net/1000075078/product/appso_tay_1_a9d26259c0d5404c85a058e93de268c4_large.jpg"
+                                                alt="so the tale of cuoi"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/so-the-tale-of-cuoi"
+                                                title="Sổ The Tale of Cuội">Sổ The
+                                                Tale of Cuội</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/sticker-the-tale-of-cuoi"
+                                            title="Sticker The Tale of Cuội"><img
+                                                src="//product.hstatic.net/1000075078/product/appsticker_2_2_33df8912a4244ea1bedb97b807fa454c_large.jpg"
+                                                alt="sticker the tale of cuoi"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/sticker-the-tale-of-cuoi"
+                                                title="Sticker The Tale of Cuội">Sticker The Tale of Cuội</a></h3>
+                                        <div class="price_product_item">29,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tui-canvas-da-nang" title="Túi Canvas Đà Nẵng"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webtui_vai_dn_43a337220de0467497892ba5ba87a61c_large.jpg"
+                                                alt="tui canvas da nang"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tui-canvas-da-nang"
+                                                title="Túi Canvas Đà Nẵng">Túi Canvas
+                                                Đà Nẵng</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tui-canvas-ha-noi" title="Túi Canvas Hà Nội"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webtui_vai_hn_41b0a5e79a52479287d063589d218562_large.jpg"
+                                                alt="tui canvas ha noi"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tui-canvas-ha-noi"
+                                                title="Túi Canvas Hà Nội">Túi Canvas
+                                                Hà Nội</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tui-canvas-sai-gon" title="Túi Canvas Sài Gòn"><img
+                                                src="//product.hstatic.net/1000075078/product/merchandise_hinh_len_webtui_vai_sg_081638376ab441be883989b8f4d16a09_large.jpg"
+                                                alt="tui canvas sai gon"></a>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tui-canvas-sai-gon"
+                                                title="Túi Canvas Sài Gòn">Túi Canvas
+                                                Sài Gòn</a></h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="menu_item">
+                                    <div class="menu_item_image">
+                                        <a href="/products/tui-canvas-trang-nha-sung-tuc"
+                                            title="Túi canvas Trăng Nhà Sung Túc"><img
+                                                src="//product.hstatic.net/1000075078/product/apptui_vai_2_8fa616b745ca47ed91e4b265b824a6e2_large.jpg"
+                                                alt="tui canvas trang nha sung tuc"></a>
+                                        <div class="new"><img class="svg-new"
+                                                src="//file.hstatic.net/1000075078/file/orion_sheriff-star.svg"
+                                                alt=""><span>MỚI</span></div>
+                                    </div>
+                                    <div class="menu_item_info bg_white">
+                                        <h3 class="menu_item_name"><a href="/products/tui-canvas-trang-nha-sung-tuc"
+                                                title="Túi canvas Trăng Nhà Sung Túc">Túi canvas Trăng Nhà Sung Túc</a>
+                                        </h3>
+                                        <div class="price_product_item">79,000 đ</div><a
+                                            class="menu_item_action animate_btn" href="//order.thecoffeehouse.com/order"
+                                            target="_blank" title="Mua Ngay">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer_top">
             <div class="container footer">
@@ -273,5 +1546,6 @@
 <script src="js/image/photo-sphere-viewer.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.min.js"></script>
 <script src="js/image/script.js"></script>
+<script src="js/menu.js"></script>
 
 </html>
