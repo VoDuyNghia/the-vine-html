@@ -46,6 +46,10 @@
 		padding: 0 !important;
 	}
 
+	.main-slider-wrapper {
+		max-height: 250px;
+	}
+
 	.visit-us-content {
 		height: unset;
 	}

@@ -93,6 +93,7 @@ ul li a {
 	padding: 30px 0;
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 }
 
 #teams>.team-wrapper-content>.team-title {
@@ -103,6 +104,8 @@ ul li a {
 
 #teams>.team-wrapper-content>.slide-item-wrapper {
 	display: flex;
+	max-height: 200px;
+	overflow: hidden;
 }
 
 .slide-item-wrapper>.slick-list>.slick-track>.slick-slide {
@@ -268,6 +271,11 @@ body {
 /* Slider*/
 .main-slider-wrapper {
 	position: relative;
+	overflow: hidden;
+}
+
+.main-slider-wrapper>.slick-list>.slick-track {
+	overflow: hidden;
 }
 
 .main-slider-wrapper>.slick-dots {

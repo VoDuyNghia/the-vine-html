@@ -1,3 +1,9 @@
+@media all and (min-width: 1200px) {
+	.main-slider-wrapper {
+		max-height: 758px !important;
+	}
+}
+
 /* Desktops and laptops */
 @media all and (min-width: 1024px) {
 	.nav-toggle {
@@ -41,6 +47,10 @@
 
 	.mobile-nav {
 		display: initial;
+	}
+
+	.main-slider-wrapper {
+		max-height: 683px;
 	}
 
 	/*visit-us*/
@@ -171,6 +181,4 @@
 	#quick-contact {
 		display: none;
 	}
-
-	
 }
