@@ -1,0 +1,353 @@
+@media only screen and (max-device-width: 1023.9px) {
+
+	.visit-us-map>.text-center>.image-about-us {
+		width: 100%;
+		object-fit: contain;
+		object-position: center;
+	}
+
+	.text-visit-us {
+		margin: 50px auto;
+		font-size: 20px;
+	}
+
+	.content-item {
+		display: none;
+	}
+
+	#your-pano {
+		height: 400px !important;
+	}
+
+	/* Collection */
+	.menu_item {
+		-ms-flex: 0 0 calc(50% - 30px);
+		-webkit-flex: 0 0 calc(50% - 30px);
+		flex: 0 0 calc(50% - 30px);
+	}
+
+	.menu_item .menu_item_info.bg_white h3 {
+		margin-bottom: 0;
+		font-size: 15px;
+	}
+
+	.menu_item .menu_item_info.bg_white .price_product_item {
+		font-size: 18px;
+	}
+
+	.stikySidebar {
+		position: static !important;
+	}
+
+	.sidebar_menu {
+		margin-bottom: 30px;
+	}
+
+	.sidebar_menu ul {
+		display: contents;
+		overflow-x: auto;
+		white-space: nowrap;
+		-ms-flex-wrap: wrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.best_seller span {
+		font-size: 14px;
+	}
+
+	.new span {
+		font-size: 14px;
+	}
+
+	.collection_menu_wrap {
+		padding: 30px 0;
+	}
+
+	.sidebar_menu ul li {
+		padding: 5px 0 5px 12px;
+	}
+
+	.sidebar_menu ul li a {
+		padding: 5px 10px;
+		display: block;
+	}
+
+	.sidebar_menu ul li a.active {
+		border-bottom: 2px solid #EA8025;
+	}
+
+	.menu_item .best_seller .svg-best-seller,
+	.menu_item .new .svg-new {
+		height: 18px;
+		width: 18px;
+	}
+
+	.sidebar_menu ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: contents;
+		overflow-x: auto;
+		white-space: nowrap;
+		-ms-flex-wrap: wrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.menu_item {
+		-ms-flex: 0 0 calc(50% - 30px);
+		-webkit-flex: 0 0 calc(50% - 30px);
+		flex: 0 0 calc(50% - 30px);
+	}
+
+	.menu_item .menu_item_info.bg_white h3 {
+		margin-bottom: 0;
+		font-size: 15px;
+	}
+
+	.menu_item .menu_item_info.bg_white {
+		background: #fff;
+		padding: 10 5px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.social {
+		top: 15px;
+		right: 52px;
+		display: none !important;
+	}
+
+	.header-overlay {
+		display: none;
+	}
+
+	/* Sidebar Menu */
+	#overlay {
+		width: 100%;
+	}
+
+	.sidebar {
+		width: calc(100% - 80px);
+	}
+
+	.sidebarBtn {
+		display: block;
+		position: fixed;
+		z-index: 999;
+	}
+
+	.sidebar>.nav-item:first-child {
+		border-top: unset;
+		border-color: unset;
+	}
+
+	.sidebar>.nav-item {
+		border-top: solid 1px #ff0;
+		border-color: rgba(255, 255, 255, 0.08);
+	}
+
+	.sidebar>.nav-item:last-child {
+		border-top: unset;
+		border-color: unset;
+		display: flex;
+	}
+
+	.sidebar>.nav-item-socials>a {
+		padding: 5px 2px 5px 0 !important;
+	}
+
+	.sidebar>.nav-item>a {
+		max-width: calc(100% - 30px);
+		padding: 10px 30px 10px 0;
+		line-height: 25px;
+	}
+
+	/*visit-us*/
+
+	.visit-us .visit-us-content {
+		height: 100%;
+	}
+
+	.visit-us .visit-us-content>p {
+		font-size: 18px;
+	}
+
+	.team-wrapper>.team-wrapper-content {
+		padding: 0px 15px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service-web>.card-body {
+		min-height: 310px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_list>ul>li:nth-child(n+4) {
+		display: none !important;
+	}
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_list>ul>li {
+		margin-bottom: 7px;
+		line-height: 10px;
+		font-weight: 500;
+		font-size: 15px;
+	}
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_list {
+		display: block;
+		position: relative;
+		margin-left: 20px;
+	}
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_price {
+		display: none;
+	}
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_list {
+		display: block;
+	}
+
+	.card-body>.card-inner-wrapper>.button_group {
+		display: flex;
+	}
+
+	.faq-row-handle {
+		cursor: pointer;
+		display: block;
+		font-weight: normal;
+		font-size: 13px;
+		padding: 7px 30px 7px 10px;
+		line-height: 20px;
+		text-decoration: none;
+		outline: 0;
+	}
+
+	.faq-row-content {
+		display: none;
+	}
+
+	/*Footer*/
+	footer {
+		background: #3e3b3b none repeat center top;
+		width: 100%;
+	}
+
+	.footer {
+		width: 100%;
+		padding: 50px 0 15px;
+	}
+
+	.footer .footer-item>.footer-title {
+		color: #58595b;
+		font-size: 14px;
+		line-height: 1;
+		margin-bottom: 5px;
+	}
+
+	.footer-address {
+		font-size: 14px;
+		font-weight: lighter;
+		line-height: 1.8;
+	}
+
+	.footer-item-address {
+		margin-bottom: 30px;
+	}
+
+	.footer-item-follow>.footer-title {
+		margin-bottom: 5px;
+	}
+
+	.sub-footer {
+		padding: 10px 0;
+		height: unset;
+	}
+
+	.sub-footer>.copy-right-footer {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.sub-footer>.copy-right-footer>p {
+		margin-bottom: unset;
+	}
+
+	.sub-footer>.copy-right-footer>.sub-footer-address {
+		padding-top: unset;
+	}
+
+	#quick-contact {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 5%;
+		background-color: rgba(255, 255, 255, .5);
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+		z-index: 100;
+		right: 0;
+	}
+
+	#quick-contact>.quick-contact-wrapper {
+		height: 100%;
+	}
+
+	#quick-contact>.quick-contact-wrapper>.contact-inner {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#quick-contact>.quick-contact-wrapper>.contact-inner>a>.c-icon-bg--primary {
+		width: 100%;
+		display: inline-flex;
+		max-width: 30px;
+		max-height: 30px;
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#quick-contact>.quick-contact-wrapper>.contact-inner>a>.s_mail {
+		font-size: 1.072em;
+		position: relative;
+		background-color: #cd8500;
+		color: #fff;
+		padding: 5px;
+		border-radius: 4px;
+		margin-right: 10px;
+	}
+
+	#quick-contact>.quick-contact-wrapper>.contact-inner>a>.s_facebook {
+		font-size: 1.072em;
+		position: relative;
+		background-color: #365899;
+		color: #fff;
+		padding: 5px 10px;
+		border-radius: 4px;
+	}
+
+	#quick-contact>.quick-contact-wrapper>.contact-inner>a>.s_phone {
+		font-size: 1.072em;
+		position: relative;
+		background-color: #cd8500;
+		color: #fff;
+		padding: 5px;
+		border-radius: 4px;
+		margin-left: 10px;
+	}
+
+	.quick-contact-wrapper>.contact-inner>a>.s_phone>.fa-phone {
+		transform: rotateY(180deg);
+	}
+}

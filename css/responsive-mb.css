@@ -1,0 +1,156 @@
+@media all and (max-device-width: 576px) {
+	.sidebar_menu ul {
+		display: flex !important;
+	}
+
+	.sidebar_menu ul li a {
+		font-size: 20px !important;
+	}
+
+	.best_seller {
+		display: none !important;
+	}
+
+	.new {
+		display: none !important;
+	}
+
+	.sidebar_menu ul li {
+		padding: 12px 10px !important;
+	}
+
+	.main span {
+		font-size: 30px !important;
+	}
+
+	#overlay {
+		width: 0;
+	}
+
+	.header-overlay {
+		display: block;
+		padding-bottom: 0;
+		width: 100%;
+		background-color: #80c37869;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.background-header {
+		height: calc(100% - 69.2%);
+	}
+
+	.collection_menu_wrap {
+		padding: 0 !important;
+	}
+
+	.visit-us-content {
+		height: unset;
+	}
+
+	.visit-us-content p {
+		word-wrap: break-word;
+		font-weight: 500;
+	}
+
+	#about-us h2 {
+		font-size: 42px;
+	}
+
+	.career-item {
+		width: 100%;
+		padding: 80px 0;
+	}
+
+	.career-item>button {
+		margin: 0 auto;
+	}
+
+	#teams>.team-wrapper-content>.row {
+		margin-left: unset;
+		margin-right: unset;
+	}
+
+	.team-wrapper {
+		padding: 60px 15px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card-body>.rooms_price {
+		display: none;
+	}
+
+	footer .container {
+		background: #f8f8f8 none repeat center top;
+	}
+
+	.footer_top>.container>.row {
+		margin-left: unset;
+		margin-right: unset;
+	}
+
+	.footer {
+		width: 100%;
+		padding: 50px 20px 15px;
+	}
+
+	.footer-logo>.footer-logo-wrapper>.brand-wrapper {
+		width: auto;
+		height: auto;
+	}
+
+	.footer-logo>.footer-logo-wrapper>.content-wrapper {
+		margin: 1.2rem 0 1rem;
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	.footer-logo>.footer-logo-wrapper>.content-wrapper>p {
+		margin-bottom: unset;
+	}
+
+	.footer .footer-item>.footer-title {
+		color: #58595b;
+		font-size: 14px;
+		line-height: 1;
+		margin-bottom: 5px;
+	}
+
+	.footer-address {
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 1.8;
+		color: #6c757d !important;
+		margin-bottom: 1rem;
+		display: inline-block;
+	}
+
+	.footer-item-address {
+		margin-bottom: 30px;
+	}
+
+	.footer-item-follow>.footer-title {
+		margin-bottom: 5px;
+	}
+
+	.sub-footer {
+		padding: 10px 0;
+		height: unset;
+	}
+
+	.sub-footer>.copy-right-footer {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.sub-footer>.copy-right-footer>p {
+		margin-bottom: unset;
+	}
+
+	.sub-footer>.copy-right-footer>.sub-footer-address {
+		padding-top: unset;
+	}
+}

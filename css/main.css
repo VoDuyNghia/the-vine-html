@@ -1,0 +1,267 @@
+.sidebar {
+	padding: 50px 30px 30px;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	background-color: #333132;
+	width: 20%;
+	height: 100%;
+	transition: 0.5s;
+	z-index: 99;
+}
+
+ul li {
+	list-style: none;
+	line-height: 49px;
+}
+
+ul li a {
+	color: #fff;
+	display: block;
+}
+
+.sidebarBtn {
+	padding: unset;
+	top: 10px;
+	right: 10px;
+	width: 44px;
+	height: 44px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	outline: none !important;
+	z-index: 100;
+	display: none;
+	border-radius: 2px;
+}
+
+.sidebarBtn span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 20px;
+	transition: 0.5s;
+	transform: translateX(50%);
+}
+
+.sidebarBtn span:before {
+	content: "";
+	position: absolute;
+	top: -6px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.sidebarBtn span:after {
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.sidebarBtn.toggle span {
+	background: transparent;
+}
+
+.sidebarBtn.toggle span:before {
+	top: 0;
+	transform: rotate(45deg);
+}
+
+.sidebarBtn.toggle span:after {
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.active {
+	right: 0;
+}
+
+#teams {
+	background-color: #444444;
+}
+
+#teams .team-wrapper-content {
+	padding: 30px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#teams>.team-wrapper-content>.team-title {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#teams>.team-wrapper-content>.slide-item-wrapper {
+	display: flex;
+}
+
+.slide-item-wrapper>.slick-list>.slick-track>.slick-slide {
+	display: flex;
+	margin: 0 10px;
+}
+
+#overlay {
+	position: fixed;
+	z-index: 97;
+	top: 0;
+	width: 80%;
+	bottom: 0;
+	left: 0;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.career-background-connect {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.career-background-learn {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.career-background-care {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.career-background-serve {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.services-wrapper {
+	padding: 30px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+}
+
+.services-wrapper>h2 {
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+.card-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.card-body {
+	padding: 43px 0 0 0;
+	color: white;
+}
+
+.card-body>.rooms_title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.card-body>.card-inner-wrapper>.rooms_list>ul {
+	padding: 0;
+	/* background: #11101094; */
+}
+
+.card-body>.card-inner-wrapper>.rooms_list>ul>li {
+	margin-bottom: 14px;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.card-body>.card-inner-wrapper>.rooms_list>ul>li>.fa-check-circle {
+	font-size: 24px;
+	margin-right: 5%;
+}
+
+.card-body>.card-inner-wrapper>.rooms_price {
+	margin-top: 25px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	/* background: #11101094; */
+}
+
+.card-body>.card-inner-wrapper>.rooms_price>span {
+	font-size: 18px;
+	font-weight: 700;
+	color: #4a4f59;
+	margin-left: 5px;
+}
+
+.card-body>.card-inner-wrapper>.button_group {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.card-body>.card-inner-wrapper>.button_group>.rooms_button_show {
+	padding: 10px 20px;
+	margin: 15px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	color: #f4f5fa;
+	outline: none;
+	border: none;
+	background-color: #6c757d;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.card-body>.card-inner-wrapper>.button_group>.rooms_button_buy {
+	padding: 10px 20px;
+	margin: 15px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+	color: #f4f5fa;
+	background-color: #464a45;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.footer-logo>.footer-logo-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-form>.form-group {
+	margin-bottom: 15px;
+}
+
+#image-gallery-bio {
+	border-bottom: 6px solid #194c13;
+}
+
+.error {
+	color: red;
+}
+
+#more-text {
+	display: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+

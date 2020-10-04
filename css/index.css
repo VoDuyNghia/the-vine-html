@@ -1,5 +1,9 @@
 @import "header.css";
-@import "responsive.css";
+@import "main.css";
+@import "responsive-mb.css";
+@import "responsive-pc.css";
+@import "responsive-tablet.css";
+
 @font-face {
   font-family: "GlossBloom";
   src: url("./../font/Gloss_And_Bloom.ttf");
