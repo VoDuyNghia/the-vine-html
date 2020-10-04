@@ -17,15 +17,26 @@
     background-repeat: no-repeat;
     background-position: top;
     overflow: hidden;
-    min-height: 549px;
+    min-height: 410px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+#services .service-web .card-body .rooms_title {
+    padding: 25px 0 0;
+    margin-bottom: 20px;
+}
+#services .service-web .card-body .rooms_price {
+    margin-top: 10px;
+}
+
+#services .service-web .card-body .rooms_list ul li:nth-child(n + 4) {
+    display: none !important;
+}
 #services .service-web .card-body .rooms_title h5,
 #services .service-web .card-body .rooms_price,
 #services .service-web .card-body .rooms_list ul {
-    padding: 0px 20px;
+    padding: 0px 10px;
     background-color: transparent;
 }
 .cursor-pointer {
@@ -579,8 +590,8 @@ a:hover .social-contact {
 }
 
 .service-web {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
 }
 
 .rooms_title h5 {
@@ -994,14 +1005,12 @@ ul li a {
 @media only screen and (max-device-width: 768px) {
     #services .service-web .card-body {
         min-height: unset;
+        padding: 25px 0 0;
     }
     #services .service-web .card-body .rooms_title {
         padding: 20px 0 0 0;
         transform: translateY(120px);
         transition: all 0.8s;
-    }
-    #services .service-web .card-body .rooms_list ul li:nth-child(n + 4) {
-        display: none !important;
     }
     #services .service-web .card-body .rooms_price {
         display: none;
