@@ -265,3 +265,81 @@ body {
 	padding: 0;
 }
 
+/* Slider*/
+.main-slider-wrapper {
+	position: relative;
+}
+
+.main-slider-wrapper>.slick-dots {
+	position: absolute;
+	bottom: 10px;
+	display: flex;
+	margin: unset;
+	padding: unset;
+	width: 100%;
+	justify-content: center;
+}
+
+.main-slider-wrapper>.slick-dots>li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #333;
+	opacity: .8;
+	margin: 0 5px;
+}
+
+.main-slider-wrapper>.slick-dots>li>button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	display: inline-block;
+	padding: unset;
+	width: 100%;
+	height: 10px;
+	color: transparent;
+}
+
+.main-slider-wrapper>.slick-dots>.slick-active {
+	background: white;
+	opacity: 1;
+}
+
+.slide-item-wrapper {
+	position: relative;
+}
+
+.slide-item-wrapper>.slick-dots {
+	position: absolute;
+	bottom: -20px;
+	display: flex;
+	margin: unset;
+	padding: unset;
+	width: 100%;
+	justify-content: center;
+}
+
+.slide-item-wrapper>.slick-dots>li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #333;
+	opacity: .8;
+	margin: 0 5px;
+}
+
+.slide-item-wrapper>.slick-dots>li>button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	display: inline-block;
+	padding: unset;
+	width: 100%;
+	height: 10px;
+	color: transparent;
+}
+
+.slide-item-wrapper>.slick-dots>.slick-active {
+	background: white;
+	opacity: 1;
+}
