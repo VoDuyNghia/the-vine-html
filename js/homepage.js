@@ -95,9 +95,12 @@ $(document).ready(function () {
   toggleReadMore();
   $(window).resize(function () {
     if ($(this).width() >= 1024) {
-      $('.faq-row-content').css('display', "block")
+      $('.card-inner-wrapper').css('display', "block")
+      $('.card-wrapper').removeClass("faq-row-container")
+      $('.card-body').removeClass("faq-row-handle")
+      $('.service-web').removeClass("faq-row")
     } else {
-      $(".faq-row-content").removeAttr("style")
+      $(".card-inner-wrapper").removeAttr("style")
     }
   })
   toggleService()
@@ -121,17 +124,17 @@ function toggleService() {
   var faqTabContainer = $('.faq-row-container');
   if (faqTab.length) {
     faqTab.on('click', function () {
-      var faqRow = $(this).parent();
-      var faqContent = $(this).parent().find('.faq-row-content');
+      if ($(window).width() <= 1023) {
+        var faqRow = $(this).parent();
+        var faqContent = $(this).parent().find('.faq-row-content');
 
-      faqTabContainer.find('.faq-row-content').not(faqContent).stop().slideUp('slow');
-      faqTabContainer.find('.faq-row').not(faqRow).removeClass('open');
+        faqTabContainer.find('.faq-row-content').not(faqContent).stop().slideUp('slow');
+        faqTabContainer.find('.faq-row').not(faqRow).removeClass('open');
 
-      faqContent.stop().slideToggle('slow', function () {
-        faqRow.toggleClass('open', faqContent.is(':visible'));
-      });
+        faqContent.stop().slideToggle('slow', function () {
+          faqRow.toggleClass('open', faqContent.is(':visible'));
+        });
+      }
     });
   }
-
-
 }
