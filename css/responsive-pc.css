@@ -91,7 +91,55 @@
 		align-items: center;
 	}
 
+	.services-wrapper {
+		overflow: hidden;
+	}
 
+	.service-web {
+		display: flex;
+		align-items: center;
+		position: relative;
+		transform: translateY(30%);
+		transition: transform 0.4s;
+		-webkit-transform: 0.4s;
+	}
+
+	.service-web:hover {
+		transform: translateY(0px);
+		transition: transform 0.4s;
+		-webkit-transform: 0.4s;
+	}
+
+	.card-wrapper {
+		max-height: 350px;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+	.card-body:hover .card-inner-wrapper {
+		visibility: visible;
+	}
+
+	.card-body>.card-inner-wrapper {
+		overflow: hidden;
+		visibility: hidden;
+	}
+
+	.card-body>.card-inner-wrapper>.rooms_list>ul>li {
+		margin-bottom: 8px;
+		line-height: 20px;
+		font-size: 13px;
+	}
+
+	.card-body>.card-inner-wrapper>.rooms_price {
+		margin-top: 15px;
+	}
+
+	.service-web>.card-body>.card-inner-wrapper>.rooms_list>ul>li:nth-child(n+4) {
+		display: none !important;
+	}
 
 	/*Footer*/
 	footer {
